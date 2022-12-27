@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EC96C22295B2F5100DE23F8 /* i_ChargeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC96C21295B2F5100DE23F8 /* i_ChargeApp.swift */; };
+		2EC96C26295B2F5300DE23F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC96C25295B2F5300DE23F8 /* Assets.xcassets */; };
+		2EC96C29295B2F5300DE23F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EC96C28295B2F5300DE23F8 /* Preview Assets.xcassets */; };
+		2EC96C30295B2F8000DE23F8 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC96C2F295B2F8000DE23F8 /* AppView.swift */; };
+		2EC96C38295B302600DE23F8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC96C37295B302600DE23F8 /* MapView.swift */; };
+		2EC96C3A295B305300DE23F8 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC96C39295B305300DE23F8 /* MapViewModel.swift */; };
+		2EC96C3C295B30E900DE23F8 /* MapDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC96C3B295B30E900DE23F8 /* MapDataService.swift */; };
+		2EC96C40295B352500DE23F8 /* Poi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC96C3F295B352500DE23F8 /* Poi.swift */; };
+		2EC96C42295B35B100DE23F8 /* AddressInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC96C41295B35B100DE23F8 /* AddressInfo.swift */; };
+		2EC96C44295B361800DE23F8 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC96C43295B361800DE23F8 /* Country.swift */; };
+		2EC96C46295B39A900DE23F8 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC96C45295B39A900DE23F8 /* CustomError.swift */; };
+		2EC96C48295B4F3700DE23F8 /* MapObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC96C47295B4F3700DE23F8 /* MapObject.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EC96C1E295B2F5100DE23F8 /* i-Charge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "i-Charge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EC96C21295B2F5100DE23F8 /* i_ChargeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = i_ChargeApp.swift; sourceTree = "<group>"; };
+		2EC96C25295B2F5300DE23F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EC96C28295B2F5300DE23F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EC96C2F295B2F8000DE23F8 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		2EC96C37295B302600DE23F8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2EC96C39295B305300DE23F8 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		2EC96C3B295B30E900DE23F8 /* MapDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataService.swift; sourceTree = "<group>"; };
+		2EC96C3F295B352500DE23F8 /* Poi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poi.swift; sourceTree = "<group>"; };
+		2EC96C41295B35B100DE23F8 /* AddressInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressInfo.swift; sourceTree = "<group>"; };
+		2EC96C43295B361800DE23F8 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		2EC96C45295B39A900DE23F8 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		2EC96C47295B4F3700DE23F8 /* MapObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapObject.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EC96C1B295B2F5100DE23F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EC96C15295B2F5100DE23F8 = {
+			isa = PBXGroup;
+			children = (
+				2EC96C20295B2F5100DE23F8 /* i-Charge */,
+				2EC96C1F295B2F5100DE23F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EC96C1F295B2F5100DE23F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EC96C1E295B2F5100DE23F8 /* i-Charge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EC96C20295B2F5100DE23F8 /* i-Charge */ = {
+			isa = PBXGroup;
+			children = (
+				2EC96C35295B2FB400DE23F8 /* Utilities */,
+				2EC96C34295B2FAB00DE23F8 /* Extensions */,
+				2EC96C36295B2FBB00DE23F8 /* Services */,
+				2EC96C32295B2F9D00DE23F8 /* Models */,
+				2EC96C33295B2FA300DE23F8 /* ViewModels */,
+				2EC96C31295B2F9400DE23F8 /* Views */,
+				2EC96C21295B2F5100DE23F8 /* i_ChargeApp.swift */,
+				2EC96C2F295B2F8000DE23F8 /* AppView.swift */,
+				2EC96C25295B2F5300DE23F8 /* Assets.xcassets */,
+				2EC96C27295B2F5300DE23F8 /* Preview Content */,
+			);
+			path = "i-Charge";
+			sourceTree = "<group>";
+		};
+		2EC96C27295B2F5300DE23F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2EC96C28295B2F5300DE23F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2EC96C31295B2F9400DE23F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2EC96C37295B302600DE23F8 /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2EC96C32295B2F9D00DE23F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2EC96C3F295B352500DE23F8 /* Poi.swift */,
+				2EC96C41295B35B100DE23F8 /* AddressInfo.swift */,
+				2EC96C43295B361800DE23F8 /* Country.swift */,
+				2EC96C47295B4F3700DE23F8 /* MapObject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2EC96C33295B2FA300DE23F8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2EC96C39295B305300DE23F8 /* MapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2EC96C34295B2FAB00DE23F8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2EC96C35295B2FB400DE23F8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2EC96C45295B39A900DE23F8 /* CustomError.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2EC96C36295B2FBB00DE23F8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2EC96C3B295B30E900DE23F8 /* MapDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EC96C1D295B2F5100DE23F8 /* i-Charge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EC96C2C295B2F5300DE23F8 /* Build configuration list for PBXNativeTarget "i-Charge" */;
+			buildPhases = (
+				2EC96C1A295B2F5100DE23F8 /* Sources */,
+				2EC96C1B295B2F5100DE23F8 /* Frameworks */,
+				2EC96C1C295B2F5100DE23F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "i-Charge";
+			productName = "i-Charge";
+			productReference = 2EC96C1E295B2F5100DE23F8 /* i-Charge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EC96C16295B2F5100DE23F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2EC96C1D295B2F5100DE23F8 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 2EC96C19295B2F5100DE23F8 /* Build configuration list for PBXProject "i-Charge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EC96C15295B2F5100DE23F8;
+			productRefGroup = 2EC96C1F295B2F5100DE23F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EC96C1D295B2F5100DE23F8 /* i-Charge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EC96C1C295B2F5100DE23F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC96C29295B2F5300DE23F8 /* Preview Assets.xcassets in Resources */,
+				2EC96C26295B2F5300DE23F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EC96C1A295B2F5100DE23F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC96C40295B352500DE23F8 /* Poi.swift in Sources */,
+				2EC96C48295B4F3700DE23F8 /* MapObject.swift in Sources */,
+				2EC96C30295B2F8000DE23F8 /* AppView.swift in Sources */,
+				2EC96C42295B35B100DE23F8 /* AddressInfo.swift in Sources */,
+				2EC96C38295B302600DE23F8 /* MapView.swift in Sources */,
+				2EC96C44295B361800DE23F8 /* Country.swift in Sources */,
+				2EC96C46295B39A900DE23F8 /* CustomError.swift in Sources */,
+				2EC96C3C295B30E900DE23F8 /* MapDataService.swift in Sources */,
+				2EC96C22295B2F5100DE23F8 /* i_ChargeApp.swift in Sources */,
+				2EC96C3A295B305300DE23F8 /* MapViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2EC96C2A295B2F5300DE23F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EC96C2B295B2F5300DE23F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EC96C2D295B2F5300DE23F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"i-Charge/Preview Content\"";
+				DEVELOPMENT_TEAM = UD7DDMT4QH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greg-ross-i-Charge.i-Charge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EC96C2E295B2F5300DE23F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"i-Charge/Preview Content\"";
+				DEVELOPMENT_TEAM = UD7DDMT4QH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.greg-ross-i-Charge.i-Charge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EC96C19295B2F5100DE23F8 /* Build configuration list for PBXProject "i-Charge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC96C2A295B2F5300DE23F8 /* Debug */,
+				2EC96C2B295B2F5300DE23F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EC96C2C295B2F5300DE23F8 /* Build configuration list for PBXNativeTarget "i-Charge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EC96C2D295B2F5300DE23F8 /* Debug */,
+				2EC96C2E295B2F5300DE23F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EC96C16295B2F5100DE23F8 /* Project object */;
+}
