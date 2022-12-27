@@ -20,9 +20,6 @@ class MapDataService: ObservableObject{
     
     
     private var cancellables = Set<AnyCancellable>()
-    
-    init(){
-    }
 
     
     func fetchAllPOIs(){

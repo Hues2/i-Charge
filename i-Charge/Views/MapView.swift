@@ -78,6 +78,7 @@ extension MapView{
                                 }
                             }
                             .listRowBackground(Color.clear)
+                            .contentShape(RoundedRectangle(cornerRadius: 10))
                             .onTapGesture {
                                 withAnimation {
                                     vm.selectedMapObject = mapObject
